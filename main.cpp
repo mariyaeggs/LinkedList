@@ -44,13 +44,13 @@ void Print(Node* head) {
       printf(" %d",temp->data);
       temp = temp->next;
    }
-   printf("\n");
+   printf("\n\n");
 }
 /**
  * Main function generates linked list.
  *
  * @param args Count of data in list int n. Values comprising count, int x.
- * @return
+ * @return exit code 0
 */
 int main() {
    Node* head = NULL; // Create empty linked list
@@ -59,10 +59,47 @@ int main() {
    scanf("%d", &n);
    // Iterate over count of linked list data
    for(i=0; i<n; i++){
-      printf("Enter the number:\n");
+      printf("\nEnter the number:\n");
       scanf("%d", &x);
       head = Insert(head,x);
       Print(head);
    }
     return 0;
 }
+
+
+/**
+ *
+ * BEGIN OUTPUT
+ *
+
+How many numbers are in the linked list?
+4
+
+Enter the number:
+1
+List is:
+ 1
+
+
+Enter the number:
+2
+List is:
+ 2 1
+
+
+Enter the number:
+3
+List is:
+ 3 2 1
+
+
+Enter the number:
+4
+List is:
+ 4 3 2 1
+
+ *
+ * END OUTPUT
+ *
+*/
