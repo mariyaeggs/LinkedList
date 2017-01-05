@@ -1,5 +1,4 @@
 #include <iostream>
-
 /**
  * Inserting A Node At the Beginning of A Linked List
  * School: CSU, Monterey Bay
