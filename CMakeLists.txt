@@ -3,5 +3,5 @@ project(LinkedList)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES BeginPosition.cpp NPosition.cpp)
 add_executable(LinkedList ${SOURCE_FILES})

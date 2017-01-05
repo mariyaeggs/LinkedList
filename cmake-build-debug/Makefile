@@ -123,6 +123,33 @@ LinkedList/fast:
 	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/build
 .PHONY : LinkedList/fast
 
+NPosition.o: NPosition.cpp.o
+
+.PHONY : NPosition.o
+
+# target to build an object file
+NPosition.cpp.o:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.o
+.PHONY : NPosition.cpp.o
+
+NPosition.i: NPosition.cpp.i
+
+.PHONY : NPosition.i
+
+# target to preprocess a source file
+NPosition.cpp.i:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.i
+.PHONY : NPosition.cpp.i
+
+NPosition.s: NPosition.cpp.s
+
+.PHONY : NPosition.s
+
+# target to generate assembly for a file
+NPosition.cpp.s:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.s
+.PHONY : NPosition.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinkedList"
+	@echo "... NPosition.o"
+	@echo "... NPosition.i"
+	@echo "... NPosition.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

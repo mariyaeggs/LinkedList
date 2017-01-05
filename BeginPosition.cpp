@@ -5,6 +5,7 @@
  * School: CSU, Monterey Bay
  * Course: CST 370 Software Design
  * Professor: Dr. Feiling Jia
+ * Source: CLion 2016.3.2 on 1/5/2017
  *
  * Program inserts nodes at the beginning of a linked list.
  *
