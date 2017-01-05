@@ -14,8 +14,8 @@ struct Node {
     struct Node* next;
 };
 /**
- * Inserts approved node(s) at the
- * beginning of a linked list.
+ * Function inserts approved node(s)
+ * at the beginning of a linked list.
  *
  * @param args Node* head, int x
  * @return head pointer node
@@ -31,6 +31,23 @@ Node* Insert(Node* head, int x) {
       return head;
    }
 }
+/**
+ * Function prints approved node(s)
+ * as a list at the program output.
+ *
+ * @param args While temp != NULL
+ * @return printf of data values in linked list
+*/
+void Print() {
+   struct Node* temp = head; // Local variable for a temporary node pointer
+   printf("List is: ");
+   while(temp != NULL){
+      printf(" %d",temp->data);
+      temp = temp->next;
+   }
+   printf("\n");
+}
 int main() {
+
     return 0;
 }
