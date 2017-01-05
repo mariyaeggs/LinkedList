@@ -26,11 +26,9 @@ Node* Insert(Node* head, int x) {
    Node* temp = (Node*)malloc(sizeof(struct Node));
    temp->data = x;
    temp->next = NULL;
-   if(head != NULL) {
-      temp->next = head;
+   if(head != NULL) temp->next = head;
       head = temp;
       return head;
-   }
 }
 /**
  * Function prints approved node(s)
@@ -41,7 +39,7 @@ Node* Insert(Node* head, int x) {
 */
 void Print(Node* head) {
    struct Node* temp = head; // Local variable for a temporary node pointer
-   printf("List is: ");
+   printf("List is:\n");
    while(temp != NULL){
       printf(" %d",temp->data);
       temp = temp->next;
@@ -56,12 +54,12 @@ void Print(Node* head) {
 */
 int main() {
    Node* head = NULL; // Create empty linked list
-   printf("How many numbers in the linked list?\n");
+   printf("How many numbers are in the linked list?\n");
    int i, n, x;
    scanf("%d", &n);
    // Iterate over count of linked list data
    for(i=0; i<n; i++){
-      printf("Enter the number(s):\n");
+      printf("Enter the number:\n");
       scanf("%d", &x);
       head = Insert(head,x);
       Print(head);
