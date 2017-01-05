@@ -7,7 +7,7 @@
  * Professor: Dr. Feiling Jia
  * Source: CLion 2016.3.2 on 1/5/2017
  *
- * Program inserts nodes at the beginning of a linked list.
+ * Program inserts nodes at Nth position of a linked list.
  *
  * @author Mariya Eggensperger
 */
