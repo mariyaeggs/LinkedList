@@ -11,3 +11,18 @@
  *
  * @author Mariya Eggensperger
 */
+struct Node {
+    int data;
+    Node* next;
+};
+struct Node* head; // Global variable for head pointer
+/**
+ * Main function computes node insertion
+ * at nth position in the linked list.
+ *
+ * @param args
+ * @return
+*/
+int main() {
+   head = NULL; // Empty linked list
+}
