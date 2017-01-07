@@ -13,7 +13,7 @@
 */
 struct Node {
     int data;
-    Node* next;
+    Node* next; // Address of consecutive node
 };
 struct Node* head; // Global variable for head pointer
 /**
