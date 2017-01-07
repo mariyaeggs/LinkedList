@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 /**
  * Inserting A Node At Nth position of A Linked List
  * School: CSU, Monterey Bay
@@ -26,10 +25,10 @@ struct Node* head; // Global variable for head pointer
 void Print() {
    Node* temp = head; // Initial temporary node points to the head
    while(temp != NULL){
-      printf("%d", temp->data);
+      printf(" %d", temp->data);
       temp = temp->next;
    }
-   printf("\n"); 
+   printf("\n");
 }
 /**
  * Function inserts specific nodes at
@@ -69,3 +68,12 @@ int main() {
    Insert(5, 2); // List : 5, 4, 3, 2
    Print();
 }
+/**
+ *
+ * BEGIN OUTPUT
+ *
+ 4 5 2 3
+ *
+ * END OUTPUT
+ *
+*/

@@ -83,9 +83,6 @@
 		<Unit filename="/Users/student/Desktop/LinkedList/NPosition.cpp">
 			<Option target="LinkedList"/>
 		</Unit>
-		<Unit filename="/Users/student/Desktop/LinkedList/main.cpp">
-			<Option target="LinkedList"/>
-		</Unit>
 		<Unit filename="/Users/student/Desktop/LinkedList/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
