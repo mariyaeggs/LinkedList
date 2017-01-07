@@ -16,7 +16,21 @@ struct Node {
     Node* next; // Address of consecutive node that links the list
 };
 struct Node* head; // Global variable for head pointer
-void Print();
+/**
+ * Function prints all inserted nodes
+ * at the nth position in the program.
+ *
+ * @param args While the temp node is not null, print all nodes inserted
+ * @return return void
+*/
+void Print() {
+   Node* temp = head; // Initial temporary node points to the head
+   while(temp != NULL){
+      printf("%d", temp->data);
+      temp = temp->next;
+   }
+   printf("\n"); 
+}
 /**
  * Function inserts specific nodes at
  * nth position in the linked list.
