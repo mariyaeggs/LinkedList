@@ -11,3 +11,7 @@
  *
  * @author Mariya Eggensperger
 */
+struct Node {
+    int data;
+    Node* next; // Address of consecutive node that links the list
+};

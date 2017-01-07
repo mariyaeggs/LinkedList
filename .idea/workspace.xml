@@ -13,9 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddbf2957-c26a-493b-bdbb-b56c7736afb9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeginPosition.cpp" afterPath="$PROJECT_DIR$/BeginPosition.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeletePosition.cpp" afterPath="$PROJECT_DIR$/DeletePosition.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NPosition.cpp" afterPath="$PROJECT_DIR$/NPosition.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,18 +32,18 @@
       <file leaf-file-name="NPosition.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NPosition.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeletePosition.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeletePosition.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeletePosition.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeginPosition.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeginPosition.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeginPosition.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -87,8 +85,8 @@
         <option value="$PROJECT_DIR$/CMakeLists" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/BeginPosition.cpp" />
-        <option value="$PROJECT_DIR$/DeletePosition.cpp" />
         <option value="$PROJECT_DIR$/NPosition.cpp" />
+        <option value="$PROJECT_DIR$/DeletePosition.cpp" />
       </list>
     </option>
   </component>
@@ -349,12 +347,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483646377675</updated>
       <workItem from="1483646381138" duration="8450000" />
-      <workItem from="1483816173681" duration="1241000" />
+      <workItem from="1483816173681" duration="1507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9691000" />
+    <option name="totallyTimeSpent" value="9957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -415,28 +413,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NPosition.cpp">
+    <entry file="file://$PROJECT_DIR$/BeginPosition.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeletePosition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeginPosition.cpp">
+    <entry file="file://$PROJECT_DIR$/NPosition.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeletePosition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
