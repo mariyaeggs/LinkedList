@@ -16,7 +16,7 @@ struct Node {
     Node* next; // Address of consecutive node
 };
 struct Node* head; // Global variable for head pointer
-void Print();
+void Print(); 
 void Insert(int data, int n);
 
 /**
