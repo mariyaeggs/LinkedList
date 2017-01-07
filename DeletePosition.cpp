@@ -20,11 +20,11 @@ void Insert(int data);
 void Print();
 void Delete(int n);
 /**
- * Function prints all inserted nodes
- * at the nth position in the program.
+ * Main function tests node deletion
+ * at nth position in the linked list.
  *
- * @param args While the temp node is not null, print all nodes inserted
- * @return return void
+ * @param args Count of data in list int n. Values comprising count, int x.
+ * @return exit code 0
 */
 int main() {
 

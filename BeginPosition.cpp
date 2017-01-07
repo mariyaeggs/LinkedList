@@ -48,7 +48,8 @@ void Print(Node* head) {
    printf("\n\n");
 }
 /**
- * Main function generates linked list.
+ * Main function tests node insertion
+ * at a beginning position in the linked list.
  *
  * @param args Count of data in list int n. Values comprising count, int x.
  * @return exit code 0

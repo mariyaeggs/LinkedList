@@ -54,7 +54,7 @@ void Insert(int data, int n) {
    temp2->next = temp1;
 }
 /**
- * Main function computes node insertion
+ * Main function tests node insertion
  * at nth position in the linked list.
  *
  * @param args Insert(int data, int n)
