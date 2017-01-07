@@ -16,15 +16,18 @@ struct Node {
     Node* next; // Address of consecutive node
 };
 struct Node* head; // Global variable for head pointer
-void Print(); 
-void Insert(int data, int n);
+void Print();
+
+void Insert(int data, int n) {
+
+}
 
 /**
  * Main function computes node insertion
  * at nth position in the linked list.
  *
- * @param args
- * @return
+ * @param args Insert(int data, int n)
+ * @return Printed statement of all nodes inserted at nth position
 */
 int main() {
    head = NULL; // Empty linked list
@@ -33,5 +36,4 @@ int main() {
    Insert(4, 1); // List : 4, 3, 2
    Insert(5, 2); // List : 5, 4, 3, 2
    Print();
-
 }
