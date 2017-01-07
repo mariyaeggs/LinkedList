@@ -12,23 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddbf2957-c26a-493b-bdbb-b56c7736afb9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/main.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LinkedList" afterPath="$PROJECT_DIR$/cmake-build-debug/LinkedList" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NPosition.cpp" afterPath="$PROJECT_DIR$/NPosition.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/LinkedList.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/LinkedList.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +32,8 @@
       <file leaf-file-name="NPosition.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NPosition.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="244">
+              <caret line="65" column="16" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="65" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -349,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483646377675</updated>
       <workItem from="1483646381138" duration="8450000" />
-      <workItem from="1483816173681" duration="640000" />
+      <workItem from="1483816173681" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9090000" />
+    <option name="totallyTimeSpent" value="9211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -427,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NPosition.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="244">
+          <caret line="65" column="16" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="65" selection-end-column="16" />
           <folding />
         </state>
       </provider>

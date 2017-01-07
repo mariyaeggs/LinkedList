@@ -63,9 +63,9 @@ void Insert(int data, int n) {
 int main() {
    head = NULL; // Empty linked list
    Insert(2, 1); // List: 2
-   Insert(3, 2); // List : 3, 2
-   Insert(4, 1); // List : 4, 3, 2
-   Insert(5, 2); // List : 5, 4, 3, 2
+   Insert(3, 2); // List : 2, 3
+   Insert(4, 1); // List : 4, 2, 3
+   Insert(5, 2); // List : 4, 5, 2, 3
    Print();
 }
 /**
