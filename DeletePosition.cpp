@@ -15,3 +15,17 @@ struct Node {
     int data;
     Node* next; // Address of consecutive node that links the list
 };
+struct Node* head; // Global variable for head pointer
+void Insert(int data);
+void Print();
+void Delete(int n);
+/**
+ * Function prints all inserted nodes
+ * at the nth position in the program.
+ *
+ * @param args While the temp node is not null, print all nodes inserted
+ * @return return void
+*/
+int main() {
+
+}
