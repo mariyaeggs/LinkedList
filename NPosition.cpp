@@ -1,8 +1,8 @@
 #include <iostream>
 /**
  * Inserting A Node At Nth position of A Linked List
- * School: CSU, Monterey Bay
  * Course: CST 370 Design & Analysis of Algorithms
+ * School: CSU, Monterey Bay
  * Professor: Dr. Feiling Jia
  * Source: CLion 2016.3.2 on 1/5/2017
  *
