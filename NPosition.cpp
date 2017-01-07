@@ -27,7 +27,7 @@ void Print();
 void Insert(int data, int n) {
   Node* temp1 = new Node(); // Initiate malloc/new with 4 bytes of free storage from the Heap
    temp1->data = data;
-   temp1->next = NULL;
+   temp1->next = NULL; // End linked list 
 }
 /**
  * Main function computes node insertion
