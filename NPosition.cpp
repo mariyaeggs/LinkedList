@@ -33,6 +33,12 @@ void Insert(int data, int n) {
       head = temp1;
       return;
    }
+   Node* temp2 = head; // Pointer for declaration of (n-1) position
+   for(int i=0; i<n-2; i++) { // Where i<n-2 assumes the (n-1) position
+      temp2 = temp2->next;
+   }
+   temp1->next = temp2->next;
+   temp2->next = temp1;
 }
 /**
  * Main function computes node insertion
