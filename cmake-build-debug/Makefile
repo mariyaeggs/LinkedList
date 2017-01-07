@@ -123,6 +123,33 @@ LinkedList/fast:
 	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/build
 .PHONY : LinkedList/fast
 
+DeletePosition.o: DeletePosition.cpp.o
+
+.PHONY : DeletePosition.o
+
+# target to build an object file
+DeletePosition.cpp.o:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/DeletePosition.cpp.o
+.PHONY : DeletePosition.cpp.o
+
+DeletePosition.i: DeletePosition.cpp.i
+
+.PHONY : DeletePosition.i
+
+# target to preprocess a source file
+DeletePosition.cpp.i:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/DeletePosition.cpp.i
+.PHONY : DeletePosition.cpp.i
+
+DeletePosition.s: DeletePosition.cpp.s
+
+.PHONY : DeletePosition.s
+
+# target to generate assembly for a file
+DeletePosition.cpp.s:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/DeletePosition.cpp.s
+.PHONY : DeletePosition.cpp.s
+
 NPosition.o: NPosition.cpp.o
 
 .PHONY : NPosition.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinkedList"
+	@echo "... DeletePosition.o"
+	@echo "... DeletePosition.i"
+	@echo "... DeletePosition.s"
 	@echo "... NPosition.o"
 	@echo "... NPosition.i"
 	@echo "... NPosition.s"

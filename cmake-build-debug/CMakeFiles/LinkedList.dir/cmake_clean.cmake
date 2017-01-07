@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkedList.dir/NPosition.cpp.o"
+  "CMakeFiles/LinkedList.dir/DeletePosition.cpp.o"
   "LinkedList.pdb"
   "LinkedList"
 )

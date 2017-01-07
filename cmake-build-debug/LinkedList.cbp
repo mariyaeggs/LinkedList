@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/student/Desktop/LinkedList/DeletePosition.cpp">
+			<Option target="LinkedList"/>
+		</Unit>
 		<Unit filename="/Users/student/Desktop/LinkedList/NPosition.cpp">
 			<Option target="LinkedList"/>
 		</Unit>
