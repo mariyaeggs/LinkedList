@@ -3,7 +3,8 @@ project(LinkedList)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES BeginPosition.cpp)
-set(SOURCE_FILES NPosition.cpp)
-set (SOURCE_FILES DeletePosition.cpp)
+#set(SOURCE_FILES BeginPosition.cpp)
+#set(SOURCE_FILES NPosition.cpp)
+set(SOURCE_FILES DeletePosition.cpp)
+
 add_executable(LinkedList ${SOURCE_FILES})
