@@ -27,5 +27,15 @@ void Delete(int n);
  * @return exit code 0
 */
 int main() {
-
+   head = NULL; // Empty linked list
+   Insert(2);
+   Insert(4);
+   Insert(6);
+   Insert(5); // List is: 2, 4, 6, 5
+   Print();
+   int n; // Position of node deletion
+   printf("Enter the node position: \n");
+   scanf("%d",&n);
+   Delete(n);
+   Print();
 }
