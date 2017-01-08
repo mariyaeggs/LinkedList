@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * Inserting A Node At the Beginning of A Linked List
  * Course: CST 370 Design & Analysis of Algorithms
@@ -41,24 +42,42 @@ void Insert(int data) {
    temp2->next = temp1;
 }
 /**
- * Function prints approved node(s)
- * as a list at the program output.
+ * Function prints nodes inserted
+ * at nth position(s) in the list
  *
  * @param args While temp != NULL
  * @return printf of data values in linked list
 */
-
-void Print() {
-   struct Node* temp = head; // Local variable for a temporary node pointer
+void Print(Node* head) {
+   struct Node *temp = head; // Local variable for a temporary node pointer
    printf("List is:\n");
-   while(temp != NULL){
-      printf(" %d",temp->data);
+   while (temp != NULL) {
+      printf(" %d", temp->data);
       temp = temp->next;
    }
    printf("\n\n");
 }
-
-void Delete(int n);
+/**
+ * Function deletes node(s) at
+ * nth position(s) in the list
+ *
+ * @param args While temp != NULL
+ * @return printf of data values in linked list
+*/
+void Delete(int n) {
+   Node * temp1 = head;
+   if(n == 1) {
+       head = temp1->next;  // Head points to 2nd node
+       free(temp1);
+   }
+   for(int i=0; i<n-2; i++) { // Where i<n-2 is the n-1th node
+       temp1 = temp1->next; // temp1 points to (n-1)th node
+      Node* temp2 = temp1->next; // Nth node
+      temp1->next = temp2->next; // (n+1)th Node
+      free(temp2); // Delete temp2
+      return;
+   }
+}
 /**
  * Main function tests node deletion
  * at nth position in the linked list.
