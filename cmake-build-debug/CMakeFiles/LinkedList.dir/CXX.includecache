@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/student/Desktop/LinkedList/NPosition.cpp
+/Users/student/Desktop/LinkedList/DeletePosition.cpp
 iostream
+-
+stdio.h
 -
 

@@ -16,15 +16,39 @@ struct Node {
     Node* next; // Address of consecutive node that links the list
 };
 struct Node* head; // Global variable for head pointer
-void Insert(int data);
+int n; // Global variable for nth position
+/**
+ * Function inserts specific nodes at
+ * nth position in the linked list.
+ *
+ * @param args int data, int n
+ * @return return void
+*/
+void Insert(int data) {
+Node* temp1 = new Node(); // Initiate malloc/new with 4 bytes of free storage from the Heap
+temp1->data = data;
+temp1->next = NULL; // End linked list
+if(n==1) { // If the position of the node is equal to 1
+temp1->next=head;
+head = temp1;
+return;
+}
+Node* temp2 = head; // Pointer for declaration of (n-1) position
+for(int i=0; i<n-2; i++) { // Where i<n-2 assumes the (n-1) position
+temp2 = temp2->next;
+}
+temp1->next = temp2->next;
+temp2->next = temp1;
+}
+
 void Print();
 void Delete(int n);
 /**
  * Main function tests node deletion
  * at nth position in the linked list.
  *
- * @param args Count of data in list int n. Values comprising count, int x.
- * @return exit code 0
+ * @param args int n
+ * @return
 */
 int main() {
    head = NULL; // Empty linked list

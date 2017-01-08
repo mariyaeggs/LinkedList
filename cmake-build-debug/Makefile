@@ -150,33 +150,6 @@ DeletePosition.cpp.s:
 	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/DeletePosition.cpp.s
 .PHONY : DeletePosition.cpp.s
 
-NPosition.o: NPosition.cpp.o
-
-.PHONY : NPosition.o
-
-# target to build an object file
-NPosition.cpp.o:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.o
-.PHONY : NPosition.cpp.o
-
-NPosition.i: NPosition.cpp.i
-
-.PHONY : NPosition.i
-
-# target to preprocess a source file
-NPosition.cpp.i:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.i
-.PHONY : NPosition.cpp.i
-
-NPosition.s: NPosition.cpp.s
-
-.PHONY : NPosition.s
-
-# target to generate assembly for a file
-NPosition.cpp.s:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/NPosition.cpp.s
-.PHONY : NPosition.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... DeletePosition.o"
 	@echo "... DeletePosition.i"
 	@echo "... DeletePosition.s"
-	@echo "... NPosition.o"
-	@echo "... NPosition.i"
-	@echo "... NPosition.s"
 .PHONY : help
 
 
