@@ -38,7 +38,7 @@ void Print() {
  * @return return void
 */
 void Insert(int data, int n) {
-  Node* temp1 = new Node(); // Initiate malloc/new with 4 bytes of free storage from the Heap
+   Node* temp1 = new Node(); // Initiate malloc/new with 4 bytes of free storage from the Heap
    temp1->data = data;
    temp1->next = NULL; // End linked list
    if(n==1) { // If the position of the node is equal to 1

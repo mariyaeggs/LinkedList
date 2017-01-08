@@ -28,8 +28,8 @@ Node* Insert(Node* head, int x) {
    temp->data = x;
    temp->next = NULL;
    if(head != NULL) temp->next = head;
-      head = temp;
-      return head;
+   head = temp;
+   return head;
 }
 /**
  * Function prints approved node(s)
@@ -66,7 +66,7 @@ int main() {
       head = Insert(head,x);
       Print(head);
    }
-    return 0;
+   return 0;
 }
 /**
  *

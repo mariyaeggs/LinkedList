@@ -88,3 +88,22 @@ int main() {
    Delete(n);
    Print();
 }
+/**
+ *
+ * BEGIN OUTPUT
+ *
+
+ 5 6 4 2
+Enter the node position:
+4
+ 5 6 2
+
+5 6 4 2
+Enter the node position:
+1
+ 6 4 2
+
+ *
+ * END OUTPUT
+ *
+*/
